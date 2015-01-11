@@ -8,13 +8,12 @@
     <sound>sound\MenuSFX</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\aegis_tree</sprite>
+    <sprite>sprites\spt_tree</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\Main</background>
-    <background>background\clouds</background>
-    <background>background\ground1</background>
-    <background>background\ground2</background>
+    <background>background\bg_color</background>
+    <background>background\bg_ground</background>
+    <background>background\bg_clouds</background>
   </backgrounds>
   <paths name="paths"/>
   <rooms name="rooms">
