@@ -10,8 +10,16 @@
   <sprites name="sprites">
     <sprite>sprites\aegis_tree</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Main</background>
+    <background>background\clouds</background>
+    <background>background\ground1</background>
+    <background>background\ground2</background>
+  </backgrounds>
   <paths name="paths"/>
+  <rooms name="rooms">
+    <room>rooms\day</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
