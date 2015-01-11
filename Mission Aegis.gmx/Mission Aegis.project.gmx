@@ -17,7 +17,7 @@
   </backgrounds>
   <paths name="paths"/>
   <rooms name="rooms">
-    <room>rooms\day</room>
+    <room>rooms\rm_day</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
