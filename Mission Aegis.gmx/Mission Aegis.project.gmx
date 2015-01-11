@@ -16,6 +16,9 @@
     <background>background\bg_clouds</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_tree</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_day</room>
   </rooms>
