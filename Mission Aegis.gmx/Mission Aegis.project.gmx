@@ -5,10 +5,17 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\MenuSFX</sound>
+    <sound>sound\snd_MenuSFX</sound>
+    <sound>sound\snd_BowRelease</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spt_tree</sprite>
+    <sprites name="Main Menu">
+      <sprite>sprites\spt_Start</sprite>
+      <sprite>sprites\spt_HighScore</sprite>
+      <sprite>sprites\spt_Help</sprite>
+      <sprite>sprites\spt_Exit</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -20,6 +27,7 @@
     <object>objects\obj_tree</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_day</room>
   </rooms>
   <help>
