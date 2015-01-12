@@ -16,15 +16,29 @@
       <sprite>sprites\spt_Help</sprite>
       <sprite>sprites\spt_Exit</sprite>
     </sprites>
+    <sprite>sprites\spt_cursor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
     <background>background\bg_ground</background>
     <background>background\bg_clouds</background>
+    <backgrounds name="Menu">
+      <background>background\background3</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_mouse_hover.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_tree</object>
+    <objects name="Main Menu">
+      <object>objects\obj_Start1</object>
+      <object>objects\obj_HighScore</object>
+      <object>objects\obj_Help</object>
+      <object>objects\obj_Exit</object>
+    </objects>
+    <object>objects\obj_cursor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
