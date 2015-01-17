@@ -25,6 +25,8 @@
       <sprite>sprites\spt_hero_LEFT</sprite>
       <sprite>sprites\spt_hero_RFire</sprite>
       <sprite>sprites\spt_hero_LFire</sprite>
+      <sprite>sprites\spt_hero_RFireR</sprite>
+      <sprite>sprites\spt_hero_LFireR</sprite>
       <sprite>sprites\spt_Bullet</sprite>
     </sprites>
     <sprites name="Buttons">
