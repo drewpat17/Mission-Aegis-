@@ -19,14 +19,18 @@
     </sprites>
     <sprite>sprites\spt_cursor</sprite>
     <sprites name="HERO">
+      <sprite>sprites\spt_hero_still</sprite>
+      <sprite>sprites\spt_hero_reverse</sprite>
       <sprite>sprites\spt_hero_RIGHT</sprite>
       <sprite>sprites\spt_hero_LEFT</sprite>
+      <sprite>sprites\spt_Bullet</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spt_button_fire</sprite>
       <sprite>sprites\spt_Arrow_right</sprite>
       <sprite>sprites\spt_Arrow_left</sprite>
     </sprites>
+    <sprite>sprites\spt_ground</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -47,8 +51,11 @@
     </objects>
     <object>objects\obj_cursor</object>
     <objects name="HERO">
-      <object>objects\obj_hero_Right</object>
-      <object>objects\obj_hero_LEFT</object>
+      <object>objects\obj_hero_still</object>
+      <object>objects\obj_hero_right</object>
+      <object>objects\obj_hero_left</object>
+      <object>objects\obj_Bullet</object>
+      <object>objects\obj_hero_reverse</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_button_fire</object>
