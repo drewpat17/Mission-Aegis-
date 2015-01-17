@@ -22,6 +22,11 @@
       <sprite>sprites\spt_hero_RIGHT</sprite>
       <sprite>sprites\spt_hero_LEFT</sprite>
     </sprites>
+    <sprites name="Buttons">
+      <sprite>sprites\spt_button_fire</sprite>
+      <sprite>sprites\spt_Arrow_right</sprite>
+      <sprite>sprites\spt_Arrow_left</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -44,6 +49,11 @@
     <objects name="HERO">
       <object>objects\obj_hero_Right</object>
       <object>objects\obj_hero_LEFT</object>
+    </objects>
+    <objects name="Buttons">
+      <object>objects\obj_button_fire</object>
+      <object>objects\obj_Arrow_right</object>
+      <object>objects\obj_Arrow_left</object>
     </objects>
   </objects>
   <rooms name="rooms">
