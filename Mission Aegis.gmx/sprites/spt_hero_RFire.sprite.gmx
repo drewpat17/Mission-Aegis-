@@ -21,5 +21,6 @@
   <height>150</height>
   <frames>
     <frame index="0">images\spt_hero_RFire_0.png</frame>
+    <frame index="1">images\spt_hero_RFire_1.png</frame>
   </frames>
 </sprite>
