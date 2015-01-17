@@ -18,6 +18,10 @@
       <sprite>sprites\spt_Exit</sprite>
     </sprites>
     <sprite>sprites\spt_cursor</sprite>
+    <sprites name="HERO">
+      <sprite>sprites\spt_hero_RIGHT</sprite>
+      <sprite>sprites\spt_hero_LEFT</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -37,6 +41,10 @@
       <object>objects\obj_Exit</object>
     </objects>
     <object>objects\obj_cursor</object>
+    <objects name="HERO">
+      <object>objects\obj_hero_Right</object>
+      <object>objects\obj_hero_LEFT</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
