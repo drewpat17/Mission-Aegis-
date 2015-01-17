@@ -23,7 +23,8 @@
       <sprite>sprites\spt_hero_reverse</sprite>
       <sprite>sprites\spt_hero_RIGHT</sprite>
       <sprite>sprites\spt_hero_LEFT</sprite>
-      <sprite>sprites\spt_hero_fire</sprite>
+      <sprite>sprites\spt_hero_RFire</sprite>
+      <sprite>sprites\spt_hero_LFire</sprite>
       <sprite>sprites\spt_Bullet</sprite>
     </sprites>
     <sprites name="Buttons">
@@ -56,10 +57,10 @@
     <object>objects\obj_cursor</object>
     <objects name="HERO">
       <object>objects\obj_hero_still</object>
+      <object>objects\obj_hero_reverse</object>
       <object>objects\obj_hero_right</object>
       <object>objects\obj_hero_left</object>
       <object>objects\obj_Bullet</object>
-      <object>objects\obj_hero_reverse</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_button_fire</object>
