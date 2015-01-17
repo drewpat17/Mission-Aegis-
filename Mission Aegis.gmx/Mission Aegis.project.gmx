@@ -23,6 +23,7 @@
       <sprite>sprites\spt_hero_reverse</sprite>
       <sprite>sprites\spt_hero_RIGHT</sprite>
       <sprite>sprites\spt_hero_LEFT</sprite>
+      <sprite>sprites\spt_hero_fire</sprite>
       <sprite>sprites\spt_Bullet</sprite>
     </sprites>
     <sprites name="Buttons">
@@ -41,6 +42,9 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\spt_bullet_fire.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_tree</object>
     <objects name="Main Menu">
