@@ -8,6 +8,7 @@
     <sound>sound\snd_MenuSFX</sound>
     <sound>sound\snd_BowRelease</sound>
     <sound>sound\snd_bg_music</sound>
+    <sound>sound\snd_GunShot</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Main Menu">
