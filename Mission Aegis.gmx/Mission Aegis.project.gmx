@@ -10,15 +10,15 @@
     <sound>sound\snd_bg_music</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spt_tree</sprite>
     <sprites name="Main Menu">
       <sprite>sprites\spt_Start</sprite>
       <sprite>sprites\spt_HighScore</sprite>
       <sprite>sprites\spt_Help</sprite>
       <sprite>sprites\spt_Exit</sprite>
+      <sprite>sprites\spt_cursor</sprite>
     </sprites>
-    <sprite>sprites\spt_cursor</sprite>
     <sprites name="HERO">
+      <sprite>sprites\spt_tree</sprite>
       <sprite>sprites\spt_hero_still</sprite>
       <sprite>sprites\spt_hero_reverse</sprite>
       <sprite>sprites\spt_hero_RIGHT</sprite>
@@ -28,13 +28,19 @@
       <sprite>sprites\spt_hero_RFireR</sprite>
       <sprite>sprites\spt_hero_LFireR</sprite>
       <sprite>sprites\spt_Bullet</sprite>
+      <sprite>sprites\spt_BulletL</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spt_button_fire</sprite>
       <sprite>sprites\spt_Arrow_right</sprite>
       <sprite>sprites\spt_Arrow_left</sprite>
     </sprites>
-    <sprite>sprites\spt_ground</sprite>
+    <sprites name="Enemies">
+      <sprite>sprites\spt_Enemy1</sprite>
+    </sprites>
+    <sprites name="Shapes0">
+      <sprite>sprites\spt_heart</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -44,7 +50,9 @@
       <background>background\background3</background>
     </backgrounds>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\left_to_right</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\spt_bullet_fire.gml</script>
   </scripts>
@@ -63,11 +71,15 @@
       <object>objects\obj_hero_right</object>
       <object>objects\obj_hero_left</object>
       <object>objects\obj_Bullet</object>
+      <object>objects\obj_BulletL</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_button_fire</object>
       <object>objects\obj_Arrow_right</object>
       <object>objects\obj_Arrow_left</object>
+    </objects>
+    <objects name="Enemies">
+      <object>objects\obj_enemy1</object>
     </objects>
   </objects>
   <rooms name="rooms">
