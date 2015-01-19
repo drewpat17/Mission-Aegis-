@@ -27,7 +27,9 @@
             <kind>1</kind>
             <string>hspeed = 2;
 image_speed = 0.5;
-hp = 10;
+hp = 100;
+hp_max = 100;
+hp_per = (hp/hp_max)*100;
 </string>
           </argument>
         </arguments>
@@ -50,9 +52,72 @@ hp = 10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ( hp &lt;= 0 ){
+            <string> 
+ 
+if ( hp &lt;= 0 ){
+    instance_destroy();
+}else{
+    hit = instance_place(x-25,y+5,obj_tree);
+    
+    if( hit != noone ){
+        hit.hp -= 0.5;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_angle = direction;
+hp_per = (hp/hp_max)*100;
+
+hit = instance_place(x+25,y+15,obj_enemy1);
+
+if( hit != noone ){
+    hit.hp -= 10;
     instance_destroy();
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//draw_sprite(sprite_index, image_index, x, y);
+draw_self();
+draw_healthbar(x+20,y-38,x-20,y-30,hp_per,c_dkgray,c_red,c_orange,1,true,true);
+draw_text(x+21,y-42, "HP: "+ string(hp/hp_max*100) );
 </string>
           </argument>
         </arguments>

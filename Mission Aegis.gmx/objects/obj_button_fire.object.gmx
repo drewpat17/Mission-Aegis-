@@ -166,8 +166,8 @@ if(hero == 0){
     //code for firing to the right (no movements)
         sprite_index = spt_hero_RFire;
         
-       /* if keyboard_check_pressed(vk_space){
-            keyboard_key_release(vk_space);
+       /*if keyboard_check_pressed(vk_space){
+            keyboard_key_release(vk_space);            
         }*/
     }
 }else{

@@ -54,7 +54,7 @@ hspeed = 8
 hit = instance_place(x+25,y+5,obj_enemy1);
 
 if( hit != noone ){
-    hit.hp -= 1;
+    hit.hp -= 10;
     instance_destroy();
 }
 </string>
