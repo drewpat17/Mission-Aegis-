@@ -69,8 +69,6 @@
     <objects name="HERO">
       <object>objects\obj_hero_still</object>
       <object>objects\obj_hero_reverse</object>
-      <object>objects\obj_hero_right</object>
-      <object>objects\obj_hero_left</object>
       <object>objects\obj_Bullet</object>
       <object>objects\obj_BulletL</object>
     </objects>

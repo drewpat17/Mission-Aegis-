@@ -2,15 +2,15 @@
 <sprite>
   <type>0</type>
   <xorig>48</xorig>
-  <yorigin>48</yorigin>
+  <yorigin>34</yorigin>
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>95</bbox_right>
-  <bbox_top>14</bbox_top>
-  <bbox_bottom>80</bbox_bottom>
+  <bbox_top>0</bbox_top>
+  <bbox_bottom>66</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,7 +18,7 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>96</width>
-  <height>96</height>
+  <height>67</height>
   <frames>
     <frame index="0">images\spt_Enemy1_0.png</frame>
     <frame index="1">images\spt_Enemy1_1.png</frame>
