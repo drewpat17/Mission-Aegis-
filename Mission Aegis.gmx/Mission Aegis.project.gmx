@@ -39,8 +39,10 @@
     <sprites name="Enemies">
       <sprite>sprites\spt_Enemy1</sprite>
     </sprites>
-    <sprites name="Shapes0">
+    <sprites name="Shapes">
       <sprite>sprites\spt_heart</sprite>
+      <sprite>sprites\spt_end_room</sprite>
+      <sprite>sprites\spt_end_room_left</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -53,12 +55,12 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\left_to_right</path>
+    <path>paths\pt_hero</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\spt_bullet_fire.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_tree</object>
     <objects name="Main Menu">
       <object>objects\obj_Start</object>
       <object>objects\obj_HighScore</object>
@@ -71,6 +73,7 @@
       <object>objects\obj_hero_reverse</object>
       <object>objects\obj_Bullet</object>
       <object>objects\obj_BulletL</object>
+      <object>objects\obj_tree</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_button_fire</object>
@@ -79,6 +82,10 @@
     </objects>
     <objects name="Enemies">
       <object>objects\obj_enemy1</object>
+    </objects>
+    <objects name="shapes">
+      <object>objects\obj_end_room_left</object>
+      <object>objects\obj_end_room</object>
     </objects>
   </objects>
   <rooms name="rooms">

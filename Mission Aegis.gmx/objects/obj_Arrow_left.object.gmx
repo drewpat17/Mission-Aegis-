@@ -103,6 +103,7 @@ sprite_index = spt_hero_LEFT;
 image_speed = 0.5;
 hero = 1;
 LArrow = 1;
+
 </string>
           </argument>
         </arguments>
