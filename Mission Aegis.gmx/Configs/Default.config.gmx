@@ -2,15 +2,15 @@
 <Config>
   <Options>
     <option_aborterrors>False</option_aborterrors>
-    <option_android_GPU_device>0</option_android_GPU_device>
+    <option_android_GPU_device>1</option_android_GPU_device>
     <option_android_adcolony_enable_V4VC>0</option_android_adcolony_enable_V4VC>
     <option_android_advertising_enable>0</option_android_advertising_enable>
     <option_android_advertising_key></option_android_advertising_key>
     <option_android_advertising_type>MoPub</option_android_advertising_type>
-    <option_android_amazon_game_circle>0</option_android_amazon_game_circle>
+    <option_android_amazon_game_circle>-1</option_android_amazon_game_circle>
     <option_android_amazon_gc_achievements>-1</option_android_amazon_gc_achievements>
     <option_android_amazon_gc_leaderboards>-1</option_android_amazon_gc_leaderboards>
-    <option_android_amazon_gc_whispersync>0</option_android_amazon_gc_whispersync>
+    <option_android_amazon_gc_whispersync>-1</option_android_amazon_gc_whispersync>
     <option_android_amazon_iap>0</option_android_amazon_iap>
     <option_android_apk_expansion>0</option_android_apk_expansion>
     <option_android_arch_armv5>True</option_android_arch_armv5>
@@ -19,8 +19,8 @@
     <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
     <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
     <option_android_arch_x86>True</option_android_arch_x86>
-    <option_android_build_version>0</option_android_build_version>
-    <option_android_color_depth>0</option_android_color_depth>
+    <option_android_build_version>2</option_android_build_version>
+    <option_android_color_depth>1</option_android_color_depth>
     <option_android_display_name>Mission Aegis</option_android_display_name>
     <option_android_flurry_enable>0</option_android_flurry_enable>
     <option_android_flurry_id></option_android_flurry_id>
@@ -57,10 +57,10 @@
     <option_android_pocketchange_test_enable>0</option_android_pocketchange_test_enable>
     <option_android_push_enable>0</option_android_push_enable>
     <option_android_push_id></option_android_push_id>
-    <option_android_scale>-1</option_android_scale>
+    <option_android_scale>0</option_android_scale>
     <option_android_set_device_id></option_android_set_device_id>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
-    <option_android_texture_page>1024</option_android_texture_page>
+    <option_android_texture_page>2048</option_android_texture_page>
     <option_android_use_test_ads>0</option_android_use_test_ads>
     <option_argumenterrors>True</option_argumenterrors>
     <option_audioGroupCount>1</option_audioGroupCount>
@@ -260,11 +260,13 @@
     <option_sizeable>False</option_sizeable>
     <option_stayontop>false</option_stayontop>
     <option_sync_vertex>0</option_sync_vertex>
-    <option_textureGroup0_border>2</option_textureGroup0_border>
+    <option_textureGroup0_border>4</option_textureGroup0_border>
     <option_textureGroup0_nocropping>0</option_textureGroup0_nocropping>
     <option_textureGroup0_parent>&lt;none&gt;</option_textureGroup0_parent>
     <option_textureGroup0_scaled>0</option_textureGroup0_scaled>
     <option_textureGroup0_targets>9223372036854775807</option_textureGroup0_targets>
+    <option_textureGroup1_nocropping>0</option_textureGroup1_nocropping>
+    <option_textureGroup2_nocropping>0</option_textureGroup2_nocropping>
     <option_textureGroup_count>1</option_textureGroup_count>
     <option_textureGroups0>Default</option_textureGroups0>
     <option_tizen_app_id>http://yourdomain/Mission Aegis</option_tizen_app_id>

@@ -78,7 +78,7 @@
     <objects name="Buttons">
       <object>objects\obj_button_fire</object>
       <object>objects\obj_Arrow_right</object>
-      <object>objects\obj_Arrow_left</object>
+      <object>objects\bobj_Arrow_left</object>
     </objects>
     <objects name="Enemies">
       <object>objects\obj_enemy1</object>
