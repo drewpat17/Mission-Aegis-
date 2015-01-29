@@ -38,10 +38,13 @@
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spt_Enemy1</sprite>
+      <sprite>sprites\sprite26</sprite>
+      <sprite>sprites\sprite27</sprite>
     </sprites>
     <sprites name="Shapes0">
       <sprite>sprites\spt_heart</sprite>
     </sprites>
+    <sprite>sprites\sprite21</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -78,7 +81,9 @@
       <object>objects\obj_Arrow_left</object>
     </objects>
     <objects name="Enemies">
+      <object>objects\object14</object>
       <object>objects\obj_enemy1</object>
+      <object>objects\object15</object>
     </objects>
   </objects>
   <rooms name="rooms">

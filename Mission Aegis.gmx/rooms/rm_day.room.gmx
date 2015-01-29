@@ -51,12 +51,15 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_enemy1" x="-54" y="433" name="inst_B16299CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_fire" x="768" y="512" name="inst_D35E0E6C" locked="0" code="" scaleX="0.425000011920929" scaleY="0.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow_right" x="160" y="512" name="inst_7B652722" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow_left" x="96" y="512" name="inst_15728213" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hero_still" x="463" y="434" name="inst_176DA60A" locked="0" code="" scaleX="0.709999978542328" scaleY="0.569999992847443" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="445" y="374" name="inst_1281444F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object14" x="-24" y="452" name="inst_238F4776" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object14" x="-223" y="419" name="inst_AAB5A3B0" locked="0" code="" scaleX="2.2470588684082" scaleY="2.03225803375244" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy1" x="-96" y="448" name="inst_DE604ED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object15" x="-64" y="128" name="inst_0689D194" locked="0" code="" scaleX="1.5252525806427" scaleY="1.35227274894714" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
