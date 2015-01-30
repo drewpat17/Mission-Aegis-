@@ -19,10 +19,14 @@
       <sprite>sprites\spt_cursor</sprite>
     </sprites>
     <sprites name="Stick_Figure">
+      <sprite>sprites\spt_sfr</sprite>
+      <sprite>sprites\spt_sfl</sprite>
       <sprite>sprites\spt_sfrun</sprite>
       <sprite>sprites\spt_sfrun_left</sprite>
       <sprite>sprites\spt_sffire</sprite>
       <sprite>sprites\spt_sffire_left</sprite>
+      <sprite>sprites\spt_fireR</sprite>
+      <sprite>sprites\spt_fireL</sprite>
     </sprites>
     <sprites name="HERO">
       <sprite>sprites\spt_tree</sprite>
@@ -71,13 +75,12 @@
     <object>objects\obj_cursor</object>
     <objects name="HERO">
       <object>objects\obj_hero_still</object>
-      <object>objects\obj_hero_reverse</object>
       <object>objects\obj_Bullet</object>
       <object>objects\obj_BulletL</object>
     </objects>
     <objects name="Stick_Figure">
-      <object>objects\obj_sfrun</object>
-      <object>objects\obj_sfrun_left</object>
+      <object>objects\obj_sfr</object>
+      <object>objects\obj_sfl</object>
     </objects>
     <objects name="Main Menu">
       <object>objects\obj_Start</object>
