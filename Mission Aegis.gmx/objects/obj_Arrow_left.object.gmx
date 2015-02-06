@@ -100,7 +100,7 @@ image_index = 0;
             <kind>1</kind>
             <string>move_towards_point(x-3,y+0,4);
 sprite_index = spt_sfrun_left;
-image_speed = 1.5;
+image_speed = 1;
 hero = 1;
 LArrow = 1;
 

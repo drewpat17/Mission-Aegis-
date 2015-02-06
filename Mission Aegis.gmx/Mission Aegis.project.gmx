@@ -47,14 +47,15 @@
       <sprite>sprites\spt_Arrow_left</sprite>
     </sprites>
     <sprites name="Enemies">
-      <sprite>sprites\spt_Enemy1</sprite>
-      <sprite>sprites\sprite26</sprite>
-      <sprite>sprites\sprite27</sprite>
+      <sprite>sprites\spt_E1</sprite>
+      <sprite>sprites\spt_E1_L</sprite>
+      <sprite>sprites\spt_E2</sprite>
+      <sprite>sprites\spt_E3</sprite>
     </sprites>
     <sprites name="Shapes0">
       <sprite>sprites\spt_heart</sprite>
+      <sprite>sprites\spt_score</sprite>
     </sprites>
-    <sprite>sprites\sprite21</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -70,6 +71,9 @@
   <scripts name="scripts">
     <script>scripts\spt_bullet_fire.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_score</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_tree</object>
     <object>objects\obj_cursor</object>
@@ -94,10 +98,14 @@
       <object>objects\obj_Arrow_left</object>
     </objects>
     <objects name="Enemies">
-      <object>objects\object14</object>
-      <object>objects\obj_enemy1</object>
-      <object>objects\object15</object>
+      <object>objects\obj_E1</object>
+      <object>objects\obj_E1_L</object>
+      <object>objects\obj_E2</object>
+      <object>objects\obj_E3</object>
     </objects>
+    <object>objects\obj_score</object>
+    <object>objects\obj_enemytimer</object>
+    <object>objects\obj_enemytimer_L</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

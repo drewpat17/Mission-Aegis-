@@ -52,9 +52,37 @@ hspeed = -8
             <string>image_angle = direction;
 
 //code for the instance wher the bullet will collide with the enemy1
-hit = instance_place(x-25,y+5,obj_enemy1);
+hit = instance_place(x-25,y+5,obj_E1);
 
 //code for deduction of hp of the obj_enemy1
+if( hit != noone ){
+    hit.hp -= 10;
+    instance_destroy();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_angle = direction;
+
+hit = instance_place(x+25,y+5,obj_E1_L);
+
 if( hit != noone ){
     hit.hp -= 10;
     instance_destroy();
