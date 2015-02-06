@@ -40,6 +40,8 @@
       <sprite>sprites\spt_hero_LFireR</sprite>
       <sprite>sprites\spt_Bullet</sprite>
       <sprite>sprites\spt_BulletL</sprite>
+      <sprite>sprites\sprite35</sprite>
+      <sprite>sprites\sprite36</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spt_button_fire</sprite>
