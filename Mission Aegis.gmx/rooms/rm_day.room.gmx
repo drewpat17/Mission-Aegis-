@@ -51,14 +51,14 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_enemytimer" x="-18" y="415" name="inst_8686458C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemytimer" x="-48" y="427" name="inst_8686458C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_fire" x="768" y="512" name="inst_D35E0E6C" locked="0" code="" scaleX="0.675000011920929" scaleY="0.639751553535461" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_right" x="192" y="512" name="inst_7B652722" locked="0" code="" scaleX="2.28571438789368" scaleY="2.03999996185303" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sfr" x="286" y="426" name="inst_516C2265" locked="0" code="" scaleX="0.747252762317657" scaleY="0.563291132450104" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tree" x="440" y="352" name="inst_1281444F" locked="0" code="" scaleX="1.54999995231628" scaleY="1.26999998092651" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_left" x="64" y="512" name="inst_27C76C79" locked="0" code="" scaleX="2.20000004768372" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="672" y="0" name="inst_30D3D519" locked="0" code="" scaleX="0.279310345649719" scaleY="0.1875" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemytimer_L" x="864" y="416" name="inst_85D8D381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sfr" x="286" y="426" name="inst_516C2265" locked="0" code="" scaleX="0.747252762317657" scaleY="0.563291132450104" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="423" y="324" name="inst_1281444F" locked="0" code="" scaleX="1.83000004291534" scaleY="1.71000003814697" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemytimer_L" x="912" y="427" name="inst_85D8D381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow_right" x="203" y="519" name="inst_D7694478" locked="0" code="" scaleX="0.239473685622215" scaleY="0.237467020750046" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow_left" x="103" y="518" name="inst_AF945497" locked="0" code="" scaleX="0.238845139741898" scaleY="0.228947371244431" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
