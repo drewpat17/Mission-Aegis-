@@ -40,8 +40,8 @@
       <sprite>sprites\spt_hero_LFireR</sprite>
       <sprite>sprites\spt_Bullet</sprite>
       <sprite>sprites\spt_BulletL</sprite>
-      <sprite>sprites\sprite35</sprite>
-      <sprite>sprites\sprite36</sprite>
+      <sprite>sprites\spt_bullet_right</sprite>
+      <sprite>sprites\spt_bullet_left</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spt_button_fire</sprite>
@@ -104,10 +104,10 @@
       <object>objects\obj_E2</object>
       <object>objects\obj_E3</object>
     </objects>
-    <object>objects\obj_score</object>
     <objects name="EnemyTimer">
       <object>objects\obj_enemytimer</object>
       <object>objects\obj_enemytimer_L</object>
+      <object>objects\obj_score</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -173,7 +173,7 @@ image_index = 0;
         }*/
     }
 }else{
-    //code for firing bullet on the left
+   //code for firing bullet on the left
     
     
     if(LArrow == 1){

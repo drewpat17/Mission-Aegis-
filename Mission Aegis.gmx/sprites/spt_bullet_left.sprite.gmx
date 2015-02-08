@@ -20,6 +20,6 @@
   <width>61</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\sprite36_0.png</frame>
+    <frame index="0">images\spt_bullet_left_0.png</frame>
   </frames>
 </sprite>
