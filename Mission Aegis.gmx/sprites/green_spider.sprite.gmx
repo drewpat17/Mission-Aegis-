@@ -20,9 +20,9 @@
   <width>85</width>
   <height>63</height>
   <frames>
-    <frame index="0">images\spt_E2_0.png</frame>
-    <frame index="1">images\spt_E2_1.png</frame>
-    <frame index="2">images\spt_E2_2.png</frame>
-    <frame index="3">images\spt_E2_3.png</frame>
+    <frame index="0">images\green_spider_0.png</frame>
+    <frame index="1">images\green_spider_1.png</frame>
+    <frame index="2">images\green_spider_2.png</frame>
+    <frame index="3">images\green_spider_3.png</frame>
   </frames>
 </sprite>

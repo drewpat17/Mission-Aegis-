@@ -52,7 +52,8 @@
       <sprite>sprites\spt_E1</sprite>
       <sprite>sprites\spt_E1_L</sprite>
       <sprite>sprites\spt_E2</sprite>
-      <sprite>sprites\spt_E3</sprite>
+      <sprite>sprites\red_spider</sprite>
+      <sprite>sprites\green_spider</sprite>
     </sprites>
     <sprites name="Shapes0">
       <sprite>sprites\spt_heart</sprite>
