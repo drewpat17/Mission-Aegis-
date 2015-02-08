@@ -47,6 +47,10 @@
       <sprite>sprites\spt_button_fire</sprite>
       <sprite>sprites\spt_Arrow_right</sprite>
       <sprite>sprites\spt_Arrow_left</sprite>
+      <sprite>sprites\RIGHT</sprite>
+      <sprite>sprites\Left</sprite>
+      <sprite>sprites\FIRE</sprite>
+      <sprite>sprites\choice1</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spt_E1</sprite>
@@ -59,6 +63,7 @@
       <sprite>sprites\spt_heart</sprite>
       <sprite>sprites\spt_score</sprite>
     </sprites>
+    <sprite>sprites\sprite40</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
