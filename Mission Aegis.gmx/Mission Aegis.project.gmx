@@ -62,6 +62,7 @@
     <sprites name="Shapes0">
       <sprite>sprites\spt_heart</sprite>
       <sprite>sprites\spt_score</sprite>
+      <sprite>sprites\sprite41</sprite>
     </sprites>
     <sprite>sprites\sprite40</sprite>
   </sprites>
