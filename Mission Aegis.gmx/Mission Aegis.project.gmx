@@ -64,7 +64,6 @@
       <sprite>sprites\spt_score</sprite>
       <sprite>sprites\sprite41</sprite>
     </sprites>
-    <sprite>sprites\sprite40</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
