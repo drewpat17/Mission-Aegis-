@@ -59,7 +59,6 @@
     <instance objName="obj_enemytimer_L" x="912" y="427" name="inst_85D8D381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow_right" x="203" y="519" name="inst_D7694478" locked="0" code="" scaleX="0.239473685622215" scaleY="0.237467020750046" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow_left" x="103" y="518" name="inst_AF945497" locked="0" code="" scaleX="0.238845139741898" scaleY="0.228947371244431" colour="4294967295" rotation="0"/>
-    <instance objName="object22" x="768" y="0" name="inst_D0CB4AD4" locked="0" code="" scaleX="0.37890625" scaleY="0.317647069692612" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
