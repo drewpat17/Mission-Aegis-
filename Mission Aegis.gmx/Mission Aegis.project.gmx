@@ -67,6 +67,10 @@
       <sprite>sprites\sprite43</sprite>
       <sprite>sprites\Load_SPR</sprite>
     </sprites>
+    <sprites name="Pause Menu">
+      <sprite>sprites\spt_pause_continue</sprite>
+      <sprite>sprites\spt_pause_exit</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
