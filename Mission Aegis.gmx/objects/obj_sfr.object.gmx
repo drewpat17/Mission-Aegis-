@@ -29,6 +29,8 @@
     {
        room_goto(rm_paused);
     }
+global.restart = 0;
+room_persistent = true;
 </string>
           </argument>
         </arguments>
@@ -54,6 +56,19 @@
             <string>if(!instance_exists(obj_pause_controller)){
     instance_create(800,65, obj_pause_controller);
     }
+    
+    if os_is_paused()
+    {
+       room_goto(rm_paused);
+    }
+
+if(global.restart = 1){
+    room_persistent = false;
+    room_restart();
+    //room_persistent = true;
+    global.restart = 0;
+}   
+
 </string>
           </argument>
         </arguments>

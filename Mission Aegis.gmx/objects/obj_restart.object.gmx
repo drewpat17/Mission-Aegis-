@@ -116,7 +116,7 @@
           <argument>
             <kind>1</kind>
             <string>room_goto(rm_day);
-game_restart();
+global.restart = 1;
 
 </string>
           </argument>
