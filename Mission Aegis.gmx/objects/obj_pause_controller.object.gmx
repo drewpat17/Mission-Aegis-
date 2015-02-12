@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>paused = false;
-
+screen_save("screen.png");
+background = sprite_add("screen.png", 0,false,true,640,360);
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if( mouse_check_button_pressed(mb_left)){
+            <string>/*if( mouse_check_button_pressed(mb_left)){
     if(paused == true){
         paused = false;
         room_goto(rm_day);
@@ -57,11 +58,48 @@
     }else if( !paused ){
         paused = true;
         //instance_deactivate_all(true);
+        screen_save("screen.png");
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
         room_goto(rm_paused);
         
     }
 
-}
+}*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(paused == true){
+        paused = false;
+        room_goto(rm_day);
+        //instance_activate_all();
+    }else if( !paused ){
+        paused = true;
+        //instance_deactivate_all(true);
+        screen_save("screen.png");
+        
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
+        room_goto(rm_paused);
+        
+    }
 </string>
           </argument>
         </arguments>

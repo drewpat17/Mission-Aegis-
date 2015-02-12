@@ -75,6 +75,7 @@
       <sprite>sprites\spt_pause_exit</sprite>
       <sprite>sprites\spt_pause_button</sprite>
       <sprite>sprites\spt_backdrop</sprite>
+      <sprite>sprites\spt_restart</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -84,7 +85,9 @@
     <backgrounds name="Menu">
       <background>background\background3</background>
     </backgrounds>
-    <background>background\bg_pause_bg</background>
+    <backgrounds name="pause">
+      <background>background\bg_pause</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths">
     <path>paths\left_to_right</path>
@@ -130,10 +133,12 @@
       <object>objects\obj_score</object>
     </objects>
     <objects name="Pause Menu">
-      <object>objects\obj_pause_continue</object>
+      <object>objects\obj_pause_resume</object>
       <object>objects\obj_pause_exit</object>
-      <object>objects\obj_pause_button</object>
+      <object>objects\obj_restart</object>
       <object>objects\obj_pause_controller</object>
+      <object>objects\obj_backdrop</object>
+      <object>objects\obj_screenshot</object>
     </objects>
     <object>objects\obj_wave</object>
   </objects>
