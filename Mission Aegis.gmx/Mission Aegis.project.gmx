@@ -88,6 +88,7 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\spt_bullet_fire.gml</script>
+    <script>scripts\check_spawn.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_score</font>
@@ -130,6 +131,7 @@
       <object>objects\obj_pause_exit</object>
       <object>objects\obj_pause_button</object>
     </objects>
+    <object>objects\obj_wave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
