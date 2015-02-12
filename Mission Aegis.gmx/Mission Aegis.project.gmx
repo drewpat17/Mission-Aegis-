@@ -17,6 +17,9 @@
       <sprite>sprites\spt_Help</sprite>
       <sprite>sprites\spt_Exit</sprite>
       <sprite>sprites\spt_cursor</sprite>
+      <sprite>sprites\Resume_button</sprite>
+      <sprite>sprites\restart_button</sprite>
+      <sprite>sprites\Quit_sprite</sprite>
     </sprites>
     <sprites name="Stick_Figure">
       <sprite>sprites\spt_sfr</sprite>
