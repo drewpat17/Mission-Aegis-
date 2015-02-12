@@ -55,7 +55,10 @@
     <sprites name="Shapes0">
       <sprite>sprites\spt_heart</sprite>
       <sprite>sprites\spt_score</sprite>
+      <sprite>sprites\pause</sprite>
     </sprites>
+    <sprite>sprites\sprite34</sprite>
+    <sprite>sprites\sprite35</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -107,8 +110,10 @@
       <object>objects\obj_enemytimer</object>
       <object>objects\obj_enemytimer_L</object>
     </objects>
+    <object>objects\object20</object>
+    <object>objects\object21</object>
+    <object>objects\object22</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_day</room>
