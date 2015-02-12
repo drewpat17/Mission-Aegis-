@@ -63,10 +63,16 @@
     <sprites name="Shapes0">
       <sprite>sprites\spt_heart</sprite>
       <sprite>sprites\spt_score</sprite>
+<<<<<<< HEAD
       <sprite>sprites\sprite41</sprite>
       <sprite>sprites\sprite43</sprite>
       <sprite>sprites\Load_SPR</sprite>
+=======
+      <sprite>sprites\pause</sprite>
+>>>>>>> origin/master
     </sprites>
+    <sprite>sprites\sprite34</sprite>
+    <sprite>sprites\sprite35</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -118,6 +124,9 @@
       <object>objects\obj_enemytimer_L</object>
       <object>objects\obj_score</object>
     </objects>
+    <object>objects\object20</object>
+    <object>objects\object21</object>
+    <object>objects\object22</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
