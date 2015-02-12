@@ -52,13 +52,14 @@
   </views>
   <instances>
     <instance objName="obj_enemytimer" x="-48" y="427" name="inst_8686458C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button_fire" x="768" y="512" name="inst_D35E0E6C" locked="0" code="" scaleX="0.675000011920929" scaleY="0.639751553535461" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_fire" x="691" y="449" name="inst_D35E0E6C" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="672" y="0" name="inst_30D3D519" locked="0" code="" scaleX="0.279310345649719" scaleY="0.1875" colour="4294967295" rotation="0"/>
     <instance objName="obj_sfr" x="286" y="426" name="inst_516C2265" locked="0" code="" scaleX="0.747252762317657" scaleY="0.563291132450104" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="423" y="324" name="inst_1281444F" locked="0" code="" scaleX="1.83000004291534" scaleY="1.71000003814697" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemytimer_L" x="912" y="427" name="inst_85D8D381" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_right" x="203" y="519" name="inst_D7694478" locked="0" code="" scaleX="0.239473685622215" scaleY="0.237467020750046" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_left" x="103" y="518" name="inst_AF945497" locked="0" code="" scaleX="0.238845139741898" scaleY="0.228947371244431" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow_right" x="126" y="457" name="inst_D7694478" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow_left" x="13" y="456" name="inst_AF945497" locked="0" code="" scaleX="0.100418411195278" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="-160" y="192" name="inst_511AE324" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
