@@ -67,6 +67,7 @@ if(global.restart = 1){
     room_restart();
     //room_persistent = true;
     global.restart = 0;
+    instance_deactivate_object(obj_Bullet);
 }   
 
 </string>

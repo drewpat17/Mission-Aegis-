@@ -59,11 +59,11 @@
       <sprite>sprites\spt_E1</sprite>
       <sprite>sprites\spt_E1_L</sprite>
       <sprite>sprites\spt_E2</sprite>
-      <sprite>sprites\red_spider</sprite>
-      <sprite>sprites\green_spider</sprite>
+      <sprite>sprites\spt_E2_1</sprite>
+      <sprite>sprites\spt_E2_2</sprite>
       <sprite>sprites\sprite42</sprite>
     </sprites>
-    <sprites name="Shapes0">
+    <sprites name="Shapes">
       <sprite>sprites\spt_heart</sprite>
       <sprite>sprites\spt_score</sprite>
       <sprite>sprites\sprite41</sprite>
@@ -125,7 +125,9 @@
       <object>objects\obj_E1</object>
       <object>objects\obj_E1_L</object>
       <object>objects\obj_E2</object>
-      <object>objects\obj_E3</object>
+      <object>objects\obj_E2_1</object>
+      <object>objects\obj_E2_2</object>
+      <object>objects\obj_wave</object>
     </objects>
     <objects name="EnemyTimer">
       <object>objects\obj_enemytimer</object>
@@ -140,7 +142,6 @@
       <object>objects\obj_backdrop</object>
       <object>objects\obj_screenshot</object>
     </objects>
-    <object>objects\obj_wave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
