@@ -20,7 +20,7 @@
   <width>957</width>
   <height>1300</height>
   <frames>
-    <frame index="0">images\Left_0.png</frame>
-    <frame index="1">images\Left_1.png</frame>
+    <frame index="0">images\spt_left_0.png</frame>
+    <frame index="1">images\spt_left_1.png</frame>
   </frames>
 </sprite>

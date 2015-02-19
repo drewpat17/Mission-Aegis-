@@ -116,8 +116,8 @@ if( hit != noone ){
             <kind>1</kind>
             <string>//draw_sprite(sprite_index, image_index, x, y);
 //draw self obj_enemy1
-draw_self();
-
+//draw_self();
+draw_sprite(spt_E1,-1,x+0,y-0)
 //creates health bar for obj_enemy1 
 draw_healthbar(x+20,y-38,x-20,y-30,hp_per,c_dkgray,c_red,c_orange,1,true,true);
 //Places Text near the health bar

@@ -51,10 +51,11 @@ hspeed = 8
             <kind>1</kind>
             <string>image_angle = direction;
 
-hit = instance_place(x+25,y+5,obj_E1);
+hit = instance_place(x+0,y+0,obj_E1);
 
 if( hit != noone ){
     hit.hp -= 10;
+    effect_create_above(ef_spark,x+0,y+0,100,c_yellow);
     instance_destroy();
 }
 </string>
@@ -79,9 +80,10 @@ if( hit != noone ){
             <kind>1</kind>
             <string>image_angle = direction;
 
-hit = instance_place(x+25,y+5,obj_E1_L);
-
+hit = instance_place(x+0,y+0,obj_E1_L);
+//effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
 if( hit != noone ){
+    //effect_create_above(ef_spark,x+0,y+0,100,c_yellow);
     hit.hp -= 10;
     instance_destroy();
 }

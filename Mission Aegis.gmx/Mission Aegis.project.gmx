@@ -31,29 +31,17 @@
       <sprite>sprites\spt_fireR</sprite>
       <sprite>sprites\spt_fireL</sprite>
     </sprites>
-    <sprites name="HERO">
+    <sprites name="Tree&amp;Bullet">
       <sprite>sprites\spt_tree</sprite>
-      <sprite>sprites\spt_hero_still</sprite>
-      <sprite>sprites\spt_hero_reverse</sprite>
-      <sprite>sprites\spt_hero_RIGHT</sprite>
-      <sprite>sprites\spt_hero_LEFT</sprite>
-      <sprite>sprites\spt_hero_RFire</sprite>
-      <sprite>sprites\spt_hero_LFire</sprite>
-      <sprite>sprites\spt_hero_RFireR</sprite>
-      <sprite>sprites\spt_hero_LFireR</sprite>
-      <sprite>sprites\spt_Bullet</sprite>
-      <sprite>sprites\spt_BulletL</sprite>
       <sprite>sprites\spt_bullet_right</sprite>
       <sprite>sprites\spt_bullet_left</sprite>
+      <sprite>sprites\spt_treebranch</sprite>
     </sprites>
     <sprites name="Buttons">
-      <sprite>sprites\spt_button_fire</sprite>
-      <sprite>sprites\spt_Arrow_right</sprite>
-      <sprite>sprites\spt_Arrow_left</sprite>
-      <sprite>sprites\RIGHT</sprite>
-      <sprite>sprites\Left</sprite>
-      <sprite>sprites\FIRE</sprite>
-      <sprite>sprites\choice1</sprite>
+      <sprite>sprites\spt_right</sprite>
+      <sprite>sprites\spt_left</sprite>
+      <sprite>sprites\spt_firebutton</sprite>
+      <sprite>sprites\spt_choice1</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\spt_E1</sprite>
@@ -102,21 +90,23 @@
     <font>fonts\f_score</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_tree</object>
-    <object>objects\obj_cursor</object>
-    <objects name="HERO">
-      <object>objects\obj_hero_still</object>
-      <object>objects\obj_Bullet</object>
-      <object>objects\obj_BulletL</object>
-    </objects>
-    <objects name="Stick_Figure">
-      <object>objects\obj_sfr</object>
-    </objects>
     <objects name="Main Menu">
       <object>objects\obj_Start</object>
       <object>objects\obj_HighScore</object>
       <object>objects\obj_Help</object>
       <object>objects\obj_Exit</object>
+    </objects>
+    <objects name="Tree&amp;Cursor">
+      <object>objects\obj_treewhole</object>
+      <object>objects\obj_tree</object>
+      <object>objects\obj_cursor</object>
+    </objects>
+    <objects name="Bullet">
+      <object>objects\obj_Bullet</object>
+      <object>objects\obj_BulletL</object>
+    </objects>
+    <objects name="Stick_Figure">
+      <object>objects\obj_sfr</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_button_fire</object>
