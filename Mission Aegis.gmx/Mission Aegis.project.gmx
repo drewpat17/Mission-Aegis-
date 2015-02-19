@@ -74,6 +74,7 @@
     <background>background\bg_clouds</background>
     <backgrounds name="Menu">
       <background>background\background3</background>
+      <background>background\background5</background>
     </backgrounds>
     <backgrounds name="pause">
       <background>background\bg_pause</background>
