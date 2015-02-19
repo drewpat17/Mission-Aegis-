@@ -52,10 +52,11 @@ hspeed = -8
             <string>image_angle = direction;
 
 //code for the instance wher the bullet will collide with the enemy1
-hit = instance_place(x-25,y+5,obj_E1);
-
+hit = instance_place(x-0,y+0,obj_E1);
+effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
 //code for deduction of hp of the obj_enemy1
 if( hit != noone ){
+    effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
     hit.hp -= 10;
     instance_destroy();
 }
@@ -81,9 +82,10 @@ if( hit != noone ){
             <kind>1</kind>
             <string>image_angle = direction;
 
-hit = instance_place(x+25,y+5,obj_E1_L);
-
+hit = instance_place(x+0,y+0,obj_E1_L);
+    effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
 if( hit != noone ){
+    effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
     hit.hp -= 10;
     instance_destroy();
 }

@@ -52,16 +52,17 @@
   </views>
   <instances>
     <instance objName="obj_pause_controller" x="800" y="65" name="inst_C4C33798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button_fire" x="762" y="506" name="inst_D35E0E6C" locked="0" code="" scaleX="0.258964151144028" scaleY="0.254980087280273" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_fire" x="772" y="511" name="inst_D35E0E6C" locked="0" code="" scaleX="0.220238089561462" scaleY="0.213147416710854" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="672" y="0" name="inst_30D3D519" locked="0" code="" scaleX="0.279310345649719" scaleY="0.1875" colour="4294967295" rotation="0"/>
     <instance objName="obj_sfr" x="286" y="426" name="inst_516C2265" locked="0" code="" scaleX="0.747252762317657" scaleY="0.563291132450104" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="435" y="299" name="inst_1281444F" locked="0" code="" scaleX="1.83000004291534" scaleY="1.71000003814697" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow_left" x="13" y="456" name="inst_AF945497" locked="0" code="" scaleX="0.100418411195278" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow_right" x="126" y="457" name="inst_D7694478" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_wave" x="0" y="0" name="inst_2D115017" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treewhole" x="427" y="323" name="inst_8C46BCC9" locked="0" code="" scaleX="1.81951224803925" scaleY="1.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treewhole" x="111" y="1" name="inst_F9080392" locked="0" code="" scaleX="0.360000014305115" scaleY="0.430000007152557" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="880" y="386" name="inst_52CF4AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="-16" y="388" name="inst_5D80E2EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treewhole" x="416" y="64" name="inst_AE42DF9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
