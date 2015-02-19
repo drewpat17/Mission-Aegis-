@@ -57,7 +57,12 @@ alarm[0] = 60;
     time = 10;
     level += 1;
     spawn_rate -= 5;
+    
 }else time--;
+
+if(spawn_rate == 5 ){
+    spawn_rate = 20;
+}
 
 alarm[0] = 60;
  
@@ -130,7 +135,7 @@ draw_text(420,510,"     " + string(time));
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>sprite52</sprite>
+            <sprite>spt_Level</sprite>
           </argument>
           <argument>
             <kind>0</kind>
@@ -162,7 +167,7 @@ draw_text(420,510,"     " + string(time));
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>sprite53</sprite>
+            <sprite>spt_nextwave</sprite>
           </argument>
           <argument>
             <kind>0</kind>

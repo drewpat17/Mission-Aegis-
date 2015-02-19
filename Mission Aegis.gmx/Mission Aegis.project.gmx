@@ -55,10 +55,10 @@
       <sprite>sprites\spt_heart</sprite>
       <sprite>sprites\spt_score</sprite>
       <sprite>sprites\Score</sprite>
-      <sprite>sprites\sprite52</sprite>
+      <sprite>sprites\spt_Level</sprite>
       <sprite>sprites\spt_endlroom</sprite>
       <sprite>sprites\Load_SPR</sprite>
-      <sprite>sprites\sprite53</sprite>
+      <sprite>sprites\spt_nextwave</sprite>
     </sprites>
     <sprites name="Pause Menu">
       <sprite>sprites\spt_pause_continue</sprite>
