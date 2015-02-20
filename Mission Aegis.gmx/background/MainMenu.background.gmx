@@ -15,9 +15,5 @@
   <For3D>0</For3D>
   <width>864</width>
   <height>576</height>
-<<<<<<< HEAD:Mission Aegis.gmx/background/background5.background.gmx
-  <data>images\background5.png</data>
-=======
   <data>images\MainMenu.png</data>
->>>>>>> origin/master:Mission Aegis.gmx/background/MainMenu.background.gmx
 </background>
