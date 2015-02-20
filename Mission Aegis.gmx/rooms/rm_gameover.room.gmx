@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>10485760</colour>
+  <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -31,14 +31,14 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_color" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="bg_ground" x="0" y="0" htiled="-1" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="bg_clouds" x="0" y="0" htiled="-1" vtiled="-1" hspeed="2" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="bg_clouds" x="80" y="123" htiled="-1" vtiled="-1" hspeed="4" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="100" htiled="-1" vtiled="-1" hspeed="-9" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background6" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="-1" name="&lt;undefined&gt;" x="0" y="0" htiled="-1" vtiled="-1" hspeed="1" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="&lt;undefined&gt;" x="0" y="0" htiled="-1" vtiled="-1" hspeed="1" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,17 +51,9 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_pause_controller" x="800" y="65" name="inst_C4C33798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button_fire" x="772" y="511" name="inst_D35E0E6C" locked="0" code="" scaleX="0.220238089561462" scaleY="0.213147416710854" colour="4294967295" rotation="0"/>
-    <instance objName="obj_score" x="672" y="0" name="inst_30D3D519" locked="0" code="" scaleX="0.279310345649719" scaleY="0.1875" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sfr" x="286" y="426" name="inst_516C2265" locked="0" code="" scaleX="0.747252762317657" scaleY="0.563291132450104" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tree" x="435" y="299" name="inst_1281444F" locked="0" code="" scaleX="1.83000004291534" scaleY="1.71000003814697" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_left" x="13" y="456" name="inst_AF945497" locked="0" code="" scaleX="0.100418411195278" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_right" x="126" y="457" name="inst_D7694478" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wave" x="0" y="0" name="inst_2D115017" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treewhole" x="111" y="1" name="inst_F9080392" locked="0" code="" scaleX="0.360000014305115" scaleY="0.430000007152557" colour="4294967295" rotation="0"/>
-    <instance objName="obj_endroom" x="880" y="386" name="inst_52CF4AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_endroom" x="-16" y="388" name="inst_5D80E2EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="gameover_retry" x="14" y="446" name="inst_D30975AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="gameover_exit" x="817" y="831" name="inst_3C24F13A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="gameover_hs" x="322" y="444" name="inst_0D7345B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
