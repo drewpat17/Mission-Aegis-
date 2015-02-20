@@ -79,8 +79,12 @@
     <background>background\bg_clouds</background>
     <backgrounds name="Menu">
       <background>background\background3</background>
+<<<<<<< HEAD
       <background>background\background5</background>
       <background>background\background6</background>
+=======
+      <background>background\MainMenu</background>
+>>>>>>> origin/master
     </backgrounds>
     <backgrounds name="pause">
       <background>background\bg_pause</background>
