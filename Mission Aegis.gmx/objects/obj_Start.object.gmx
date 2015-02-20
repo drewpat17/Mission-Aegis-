@@ -135,7 +135,7 @@
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>snd_bg_music</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
