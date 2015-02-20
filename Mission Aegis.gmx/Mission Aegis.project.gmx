@@ -67,11 +67,6 @@
       <sprite>sprites\spt_backdrop</sprite>
       <sprite>sprites\spt_restart</sprite>
     </sprites>
-    <sprites name="Game Over Menu">
-      <sprite>sprites\Retry</sprite>
-      <sprite>sprites\EXIT</sprite>
-      <sprite>sprites\HighScore</sprite>
-    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -81,10 +76,13 @@
       <background>background\background3</background>
 <<<<<<< HEAD
       <background>background\background5</background>
+<<<<<<< HEAD
       <background>background\background6</background>
 =======
       <background>background\MainMenu</background>
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 0939739... Game Over Menu
     </backgrounds>
     <backgrounds name="pause">
       <background>background\bg_pause</background>
@@ -146,17 +144,11 @@
       <object>objects\obj_backdrop</object>
       <object>objects\obj_screenshot</object>
     </objects>
-    <objects name="GameOver">
-      <object>objects\gameover_retry</object>
-      <object>objects\gameover_exit</object>
-      <object>objects\gameover_hs</object>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_day</room>
     <room>rooms\rm_paused</room>
-    <room>rooms\rm_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
