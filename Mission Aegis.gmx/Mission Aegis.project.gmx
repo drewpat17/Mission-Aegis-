@@ -17,9 +17,6 @@
       <sprite>sprites\spt_Help</sprite>
       <sprite>sprites\spt_Exit</sprite>
       <sprite>sprites\spt_cursor</sprite>
-      <sprite>sprites\Resume_button</sprite>
-      <sprite>sprites\restart_button</sprite>
-      <sprite>sprites\Quit_sprite</sprite>
     </sprites>
     <sprites name="Stick_Figure">
       <sprite>sprites\spt_sfr</sprite>
@@ -67,6 +64,11 @@
       <sprite>sprites\spt_backdrop</sprite>
       <sprite>sprites\spt_restart</sprite>
     </sprites>
+    <sprites name="Game Over">
+      <sprite>sprites\spt_retry</sprite>
+      <sprite>sprites\spt_GO_exit</sprite>
+      <sprite>sprites\spt_GO_highscores</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_color</background>
@@ -75,6 +77,7 @@
     <backgrounds name="Menu">
       <background>background\background3</background>
       <background>background\MainMenu</background>
+      <background>background\GameOver</background>
     </backgrounds>
     <backgrounds name="pause">
       <background>background\bg_pause</background>
@@ -136,11 +139,17 @@
       <object>objects\obj_backdrop</object>
       <object>objects\obj_screenshot</object>
     </objects>
+    <objects name="Game Over Menu">
+      <object>objects\obj_retry_GO</object>
+      <object>objects\obj_GO_exit</object>
+      <object>objects\obj_GO_HighScores</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_day</room>
     <room>rooms\rm_paused</room>
+    <room>rooms\rm_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

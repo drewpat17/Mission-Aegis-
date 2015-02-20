@@ -57,6 +57,9 @@ hp_per = (hp/hp_max)*100;
 
 hp_per = (hp/hp_max)*100;
 
+
+
+
 </string>
           </argument>
         </arguments>
