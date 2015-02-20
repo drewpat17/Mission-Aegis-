@@ -3,7 +3,7 @@
   <spriteName>spt_pause_button</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>10</depth>
+  <depth>0</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -28,12 +28,43 @@
             <string>paused = false;
 screen_save("screen.png");
 background = sprite_add("screen.png", 0,false,true,640,360);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/*if( mouse_check_button_pressed(mb_left)){
+    if(paused == true){
+        paused = false;
+        room_goto(rm_day);
+        //instance_activate_all();
+    }else if( !paused ){
+        paused = true;
+        //instance_deactivate_all(true);
+        screen_save("screen.png");
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
+        room_goto(rm_paused);
+        
+    }
 
-rm[0] = rm_menu;
-rm[1] = rm_day;
-rm[2] = rm_paused;
-rm[3] = rm_gameover;
-
+}*/
 </string>
           </argument>
         </arguments>
@@ -59,7 +90,6 @@ rm[3] = rm_gameover;
             <string>if(paused == true){
         paused = false;
         room_goto(rm_day);
-        //instance_create(768,32,obj_pause_controller);
         //instance_activate_object(obj_Bullet);
         //instance_activate_all();
     }else if( !paused ){
@@ -67,12 +97,10 @@ rm[3] = rm_gameover;
         //instance_deactivate_object(obj_Bullet);
         screen_save("screen.png");
         
-        global.background = sprite_add("screen.png",0,false,true,640,360);
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
         room_goto(rm_paused);
-        //instance_deactivate_object(obj_pause_controller);
         
     }
-    
 </string>
           </argument>
         </arguments>

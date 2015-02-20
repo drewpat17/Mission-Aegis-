@@ -60,7 +60,7 @@ hp_per = (hp/hp_max)*100;
     hit = instance_place(x-25,y+5,obj_tree);
     
     if( hit != noone ){
-        hit.hp -= 1;
+        hit.hp -= 0.1;
     }
 }
 </string>
