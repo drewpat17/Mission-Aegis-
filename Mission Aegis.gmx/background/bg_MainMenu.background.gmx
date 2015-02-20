@@ -15,5 +15,5 @@
   <For3D>0</For3D>
   <width>864</width>
   <height>576</height>
-  <data>images\MainMenu.png</data>
+  <data>images\bg_MainMenu.png</data>
 </background>

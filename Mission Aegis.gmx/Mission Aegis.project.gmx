@@ -75,12 +75,13 @@
     <background>background\bg_ground</background>
     <background>background\bg_clouds</background>
     <backgrounds name="Menu">
-      <background>background\background3</background>
-      <background>background\MainMenu</background>
-      <background>background\GameOver</background>
-    </backgrounds>
-    <backgrounds name="pause">
-      <background>background\bg_pause</background>
+      <background>background\bg_MainMenu</background>
+      <backgrounds name="Game Over">
+        <background>background\bg_GameOver</background>
+      </backgrounds>
+      <backgrounds name="Pause">
+        <background>background\bg_pause</background>
+      </backgrounds>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
