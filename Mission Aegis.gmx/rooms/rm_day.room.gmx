@@ -62,7 +62,6 @@
     <instance objName="obj_treewhole" x="111" y="1" name="inst_F9080392" locked="0" code="" scaleX="0.360000014305115" scaleY="0.430000007152557" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="880" y="386" name="inst_52CF4AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="-16" y="388" name="inst_5D80E2EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treewhole" x="416" y="64" name="inst_AE42DF9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
