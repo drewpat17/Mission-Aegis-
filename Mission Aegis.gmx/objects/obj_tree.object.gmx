@@ -57,11 +57,9 @@ hp_per = (hp/hp_max)*100;
 
 hp_per = (hp/hp_max)*100;
 
-if (hp == 0 ){
- 
- room_goto(rm_gameover);
- 
- }
+if ( hp == 0 ){
+    room_goto(rm_gameover);
+}
 
 
 

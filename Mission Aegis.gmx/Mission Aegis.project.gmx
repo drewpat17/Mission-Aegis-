@@ -142,8 +142,8 @@
     </objects>
     <objects name="Game Over Menu">
       <object>objects\obj_retry_GO</object>
-      <object>objects\obj_GO_exit</object>
       <object>objects\obj_GO_HighScores</object>
+      <object>objects\bj_GO_exit</object>
     </objects>
   </objects>
   <rooms name="rooms">

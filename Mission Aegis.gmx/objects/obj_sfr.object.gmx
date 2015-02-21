@@ -27,7 +27,9 @@
             <kind>1</kind>
             <string>if os_is_paused()
     {
-       room_goto(rm_paused);
+        screen_save("screen.png");
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
+        room_goto(rm_paused);
     }
 global.restart = 0;
 room_persistent = true;
@@ -59,7 +61,11 @@ room_persistent = true;
     
     if os_is_paused()
     {
-       room_goto(rm_paused);
+        //added
+        screen_save("screen.png");
+        //added
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
+        room_goto(rm_paused);
     }
 
 if(global.restart = 1){
