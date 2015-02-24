@@ -55,18 +55,22 @@ room_persistent = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!instance_exists(obj_pause_controller)){
+            <string>tree = obj_tree;
+
+if(!instance_exists(obj_pause_controller)){
     instance_create(800,65, obj_pause_controller);
     }
-    
-    if os_is_paused()
-    {
-        //added
+
+if( tree.hp &lt;= 0 ){
+    room_goto(rm_gameover);
+}
+if( !room_exists(rm_gameover) ){
+    if( os_is_paused() ){
         screen_save("screen.png");
-        //added
         global.background = sprite_add("screen.png", 0,false,true,640,360);
         room_goto(rm_paused);
     }
+}
 
 if(global.restart = 1){
     room_persistent = false;

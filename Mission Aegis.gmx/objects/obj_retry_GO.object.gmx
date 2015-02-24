@@ -109,13 +109,13 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>obj_restart</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(rm_menu);
+            <string>room_goto(rm_day);
 global.restart = 1;
 </string>
           </argument>
