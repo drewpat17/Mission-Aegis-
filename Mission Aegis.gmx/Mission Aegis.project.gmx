@@ -33,6 +33,7 @@
       <sprite>sprites\spt_bullet_right</sprite>
       <sprite>sprites\spt_bullet_left</sprite>
       <sprite>sprites\spt_treebranch</sprite>
+      <sprite>sprites\spr_root</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spt_right</sprite>
@@ -68,6 +69,11 @@
       <sprite>sprites\spt_retry</sprite>
       <sprite>sprites\spt_GO_exit</sprite>
       <sprite>sprites\spt_GO_highscores</sprite>
+    </sprites>
+    <sprites name="Powerup">
+      <sprite>sprites\spr_shield</sprite>
+      <sprite>sprites\spr_bomb</sprite>
+      <sprite>sprites\spr_freeze</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -105,6 +111,7 @@
       <object>objects\obj_treewhole</object>
       <object>objects\obj_tree</object>
       <object>objects\obj_cursor</object>
+      <object>objects\obj_root</object>
     </objects>
     <objects name="Bullet">
       <object>objects\obj_Bullet</object>
@@ -144,6 +151,11 @@
       <object>objects\obj_retry_GO</object>
       <object>objects\obj_GO_HighScores</object>
       <object>objects\bj_GO_exit</object>
+    </objects>
+    <objects name="Powerups">
+      <object>objects\object_shield</object>
+      <object>objects\object_bomb</object>
+      <object>objects\object_freeze</object>
     </objects>
   </objects>
   <rooms name="rooms">

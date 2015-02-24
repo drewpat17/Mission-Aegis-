@@ -59,9 +59,13 @@
     <instance objName="obj_Arrow_left" x="13" y="456" name="inst_AF945497" locked="0" code="" scaleX="0.100418411195278" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow_right" x="126" y="457" name="inst_D7694478" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_wave" x="0" y="0" name="inst_2D115017" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treewhole" x="111" y="1" name="inst_F9080392" locked="0" code="" scaleX="0.360000014305115" scaleY="0.430000007152557" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treewhole" x="122" y="-4" name="inst_F9080392" locked="0" code="" scaleX="0.360000014305115" scaleY="0.430000007152557" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="880" y="386" name="inst_52CF4AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="-16" y="388" name="inst_5D80E2EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_root" x="257" y="480" name="inst_09CAA5C5" locked="0" code="" scaleX="0.719397366046906" scaleY="0.466101706027985" colour="4294967295" rotation="0"/>
+    <instance objName="object_shield" x="26" y="128" name="inst_2F438C4B" locked="0" code="" scaleX="0.270000010728836" scaleY="0.259999990463257" colour="4294967295" rotation="0"/>
+    <instance objName="object_bomb" x="704" y="135" name="inst_8BA6BA03" locked="0" code="" scaleX="0.360000014305115" scaleY="0.349999994039536" colour="4294967295" rotation="0"/>
+    <instance objName="object_freeze" x="30" y="222" name="inst_FB5FCF19" locked="0" code="" scaleX="0.272965878248215" scaleY="0.257653057575226" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
