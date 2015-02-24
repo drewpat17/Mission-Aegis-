@@ -109,14 +109,14 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_restart</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//game_end();
-
+            <string>room_goto(rm_menu);
+global.restart = 1;
 </string>
           </argument>
         </arguments>

@@ -149,8 +149,8 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_day</room>
-    <room>rooms\rm_paused</room>
     <room>rooms\rm_gameover</room>
+    <room>rooms\rm_paused</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
