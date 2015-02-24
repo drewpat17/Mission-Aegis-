@@ -71,6 +71,11 @@ if( !room_exists(rm_gameover) ){
         room_goto(rm_paused);
     }
 }
+if( os_is_paused() ){
+        screen_save("screen.png");
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
+        room_goto(rm_paused);
+    }
 
 if(global.restart = 1){
     room_persistent = false;
