@@ -57,6 +57,7 @@
 global.rm[1] = rm_day;
 global.rm[2] = rm_paused;
 global.rm[3] = rm_gameover;
+global.rm[4] = rm_highscore;
 
 
 

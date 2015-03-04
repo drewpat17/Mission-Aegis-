@@ -74,6 +74,20 @@
       <sprite>sprites\spr_shield</sprite>
       <sprite>sprites\spr_bomb</sprite>
       <sprite>sprites\spr_freeze</sprite>
+      <sprite>sprites\spr_bomb_effect</sprite>
+    </sprites>
+    <sprites name="HighScore">
+      <sprite>sprites\spr_submit</sprite>
+    </sprites>
+    <sprites name="Help">
+      <sprite>sprites\help_arrow</sprite>
+      <sprite>sprites\Power_ups</sprite>
+      <sprite>sprites\freeze_desc</sprite>
+      <sprite>sprites\fire_desc</sprite>
+      <sprite>sprites\bomb_desc</sprite>
+      <sprite>sprites\shield_desc</sprite>
+      <sprite>sprites\sprite53</sprite>
+      <sprite>sprites\spr_back</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -87,6 +101,9 @@
       </backgrounds>
       <backgrounds name="Pause">
         <background>background\bg_pause</background>
+      </backgrounds>
+      <backgrounds name="HighScore">
+        <background>background\background7</background>
       </backgrounds>
     </backgrounds>
   </backgrounds>
@@ -157,12 +174,28 @@
       <object>objects\object_bomb</object>
       <object>objects\object_freeze</object>
     </objects>
+    <objects name="HighScore">
+      <object>objects\object_getScore</object>
+      <object>objects\obj_submit</object>
+    </objects>
+    <object>objects\object38</object>
+    <objects name="Help">
+      <object>objects\obj_identifier</object>
+      <object>objects\powerups</object>
+      <object>objects\obj_freeze_desc</object>
+      <object>objects\obj_shield_desc</object>
+      <object>objects\obj_bomb_desc</object>
+      <object>objects\obj_fire_desc</object>
+      <object>objects\obj_back</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_day</room>
+    <room>rooms\rm_help</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_paused</room>
+    <room>rooms\rm_highscore</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
