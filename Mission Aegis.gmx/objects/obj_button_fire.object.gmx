@@ -159,13 +159,13 @@ image_index = 0;
     
     //code for firing while running to the right 
     if(RArrow == 1){
-        instance_create(x+70,y-20,obj_Bullet);
+        instance_create(x+80,y-20,obj_Bullet);
         sprite_index = spt_sffire;
         speed = 4;
         image_speed = 1.5;
     }else {
     //code for firing to the right (no movements)
-        instance_create(x+70,y-26,obj_Bullet);
+        instance_create(x+80,y-26,obj_Bullet);
         sprite_index = spt_fireR;
         
        /*if keyboard_check_pressed(vk_space){
@@ -178,13 +178,13 @@ image_index = 0;
     
     if(LArrow == 1){
     //code for firing while running to the left 
-        instance_create(x-30,y-20,obj_BulletL);
+        instance_create(x-80,y-20,obj_BulletL);
         sprite_index = spt_sffire_left;
         speed = 4;
         image_speed = 1.5;
     }else{
     //code for firing to the left (no movements)
-    instance_create(x-30,y-26,obj_BulletL);
+    instance_create(x-80,y-26,obj_BulletL);
         sprite_index = spt_fireL; 
     }
 }

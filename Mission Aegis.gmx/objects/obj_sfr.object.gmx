@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if os_is_paused()
+            <string>global.enemy_destroy = 0;
+global.enemy_destroy1 = 0;
+if os_is_paused()
     {
         screen_save("screen.png");
         global.background = sprite_add("screen.png", 0,false,true,640,360);
