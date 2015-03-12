@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = 2;
-image_speed = 0.5;
+            <string>//hspeed = 0;
+//image_speed = 0;
 hp = 100;
 hp_max = 100;
 hp_per = (hp/hp_max)*100;
@@ -57,6 +57,7 @@ hp_per = (hp/hp_max)*100;
     effect_create_above(ef_explosion,x+0,y+0,1,c_green);
     score = score +10;
     instance_destroy();
+    global.enemy_destroy = 1;
 }else{
     //damages to the tree
     hit = instance_place(x-25,y+5,obj_tree);
