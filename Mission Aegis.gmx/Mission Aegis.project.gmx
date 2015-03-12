@@ -118,6 +118,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_score</font>
+    <font>fonts\f_scoreEnd</font>
   </fonts>
   <objects name="objects">
     <objects name="Main Menu">

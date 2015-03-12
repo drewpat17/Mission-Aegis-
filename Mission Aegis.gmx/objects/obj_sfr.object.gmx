@@ -230,6 +230,7 @@ if( os_is_paused() ){
 if(global.restart = 1){
     room_persistent = false;
     room_restart();
+    score = 0;
     //room_persistent = true;
     global.restart = 0;
     instance_deactivate_object(obj_Bullet);

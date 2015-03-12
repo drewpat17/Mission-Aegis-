@@ -55,6 +55,7 @@
     <instance objName="obj_GO_HighScores" x="307" y="480" name="inst_23C4E637" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="bj_GO_exit" x="608" y="480" name="inst_97581290" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_fscore" x="160" y="352" name="inst_00166BB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_getScore" x="0" y="0" name="inst_0306F4EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
