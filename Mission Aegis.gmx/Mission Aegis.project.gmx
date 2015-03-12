@@ -182,7 +182,6 @@
       <object>objects\object_getScore</object>
       <object>objects\obj_submit</object>
     </objects>
-    <object>objects\object38</object>
     <objects name="Help">
       <object>objects\obj_identifier</object>
       <object>objects\powerups</object>
@@ -201,7 +200,6 @@
     <room>rooms\rm_paused</room>
     <room>rooms\rm_highscore</room>
     <room>rooms\rm_help</room>
-    <room>rooms\room7</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

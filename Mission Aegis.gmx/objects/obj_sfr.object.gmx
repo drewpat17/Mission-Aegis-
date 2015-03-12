@@ -186,6 +186,57 @@ if( keyboard_check(vk_space)) {
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>tree = obj_tree;
+
+if(!instance_exists(obj_pause_controller)){
+    instance_create(800,65, obj_pause_controller);
+    }
+
+if( tree.hp &lt;= 0 ){
+    room_goto(rm_gameover);
+}
+
+if( !room_exists(rm_gameover) ){
+    if( os_is_paused() ){
+        screen_save("screen.png");
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
+        room_goto(rm_paused);
+    }
+}
+if( os_is_paused() ){
+        screen_save("screen.png");
+        global.background = sprite_add("screen.png", 0,false,true,640,360);
+        room_goto(rm_paused);
+    }
+
+if(global.restart = 1){
+    room_persistent = false;
+    room_restart();
+    //room_persistent = true;
+    global.restart = 0;
+    instance_deactivate_object(obj_Bullet);
+}   
+
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="4" ename="obj_endroom">
       <action>
@@ -205,6 +256,7 @@ if( keyboard_check(vk_space)) {
           <argument>
             <kind>1</kind>
             <string>move_towards_point(x+0,y+0,0);
+
 </string>
           </argument>
         </arguments>
