@@ -188,6 +188,7 @@
       <object>objects\obj_fire_desc</object>
       <object>objects\obj_back</object>
     </objects>
+    <object>objects\obj_creation_code</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

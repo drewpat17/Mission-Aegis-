@@ -52,6 +52,10 @@ background = sprite_add("screen.png", 0,false,true,640,360);
             <kind>1</kind>
             <string>if(paused == true){
         paused = false;
+        display_set_gui_size(864,576);
+        global.key_fire = virtual_key_add(706,467,176,175,vk_space);
+        global.key_right = virtual_key_add(145,478,134,149,ord('D'));
+        global.key_left = virtual_key_add(60,497,134,150,ord('A'));
         room_goto(rm_day);
     }else if( !paused ){
         paused = false;

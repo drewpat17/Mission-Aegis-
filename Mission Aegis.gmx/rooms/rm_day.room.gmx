@@ -51,21 +51,23 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_pause_controller" x="800" y="65" name="inst_C4C33798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button_fire" x="772" y="511" name="inst_D35E0E6C" locked="0" code="" scaleX="0.220238089561462" scaleY="0.213147416710854" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pause_controller" x="800" y="65" name="inst_C4C33798" locked="-1" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button_fire" x="706" y="467" name="inst_D35E0E6C" locked="0" code="" scaleX="0.540000021457672" scaleY="0.509999990463257" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="672" y="0" name="inst_30D3D519" locked="0" code="" scaleX="0.279310345649719" scaleY="0.1875" colour="4294967295" rotation="0"/>
     <instance objName="obj_sfr" x="286" y="426" name="inst_516C2265" locked="0" code="" scaleX="0.747252762317657" scaleY="0.563291132450104" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="435" y="299" name="inst_1281444F" locked="0" code="" scaleX="1.83000004291534" scaleY="1.71000003814697" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_left" x="13" y="456" name="inst_AF945497" locked="0" code="" scaleX="0.100418411195278" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow_right" x="126" y="457" name="inst_D7694478" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow_left" x="60" y="479" name="inst_AF945497" locked="0" code="" scaleX="0.529999971389771" scaleY="0.479999989271164" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow_right" x="178" y="479" name="inst_D7694478" locked="0" code="" scaleX="0.540000021457672" scaleY="0.490000009536743" colour="4294967295" rotation="0"/>
     <instance objName="obj_wave" x="0" y="0" name="inst_2D115017" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_treewhole" x="122" y="-4" name="inst_F9080392" locked="0" code="" scaleX="0.360000014305115" scaleY="0.430000007152557" colour="4294967295" rotation="0"/>
+    <instance objName="obj_treewhole" x="122" y="-4" name="inst_F9080392" locked="-1" code="" scaleX="0.360000014305115" scaleY="0.430000007152557" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="880" y="386" name="inst_52CF4AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_endroom" x="-16" y="388" name="inst_5D80E2EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_root" x="257" y="480" name="inst_09CAA5C5" locked="0" code="" scaleX="0.719397366046906" scaleY="0.466101706027985" colour="4294967295" rotation="0"/>
+    <instance objName="obj_root" x="257" y="480" name="inst_09CAA5C5" locked="-1" code="" scaleX="0.719397366046906" scaleY="0.466101706027985" colour="4294967295" rotation="0"/>
     <instance objName="object_shield" x="97" y="179" name="inst_2F438C4B" locked="0" code="" scaleX="0.270000010728836" scaleY="0.259999990463257" colour="4294967295" rotation="0"/>
     <instance objName="object_bomb" x="782" y="180" name="inst_8BA6BA03" locked="0" code="" scaleX="0.360000014305115" scaleY="0.349999994039536" colour="4294967295" rotation="0"/>
     <instance objName="object_freeze" x="98" y="279" name="inst_FB5FCF19" locked="0" code="" scaleX="0.270000010728836" scaleY="0.259999990463257" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="32" y="0" name="inst_53E4F70F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_creation_code" x="32" y="0" name="inst_40601D62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
