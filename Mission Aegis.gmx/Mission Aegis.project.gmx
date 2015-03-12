@@ -57,6 +57,7 @@
       <sprite>sprites\spt_endlroom</sprite>
       <sprite>sprites\Load_SPR</sprite>
       <sprite>sprites\spt_nextwave</sprite>
+      <sprite>sprites\sprite56</sprite>
     </sprites>
     <sprites name="Pause Menu">
       <sprite>sprites\spt_pause_continue</sprite>
@@ -95,6 +96,7 @@
     <background>background\bg_ground</background>
     <background>background\bg_clouds</background>
     <backgrounds name="Menu">
+      <background>background\bkg_help</background>
       <background>background\bg_MainMenu</background>
       <backgrounds name="Game Over">
         <background>background\bg_GameOver</background>
@@ -123,6 +125,7 @@
       <object>objects\obj_HighScore</object>
       <object>objects\obj_Help</object>
       <object>objects\obj_Exit</object>
+      <object>objects\obj_load</object>
     </objects>
     <objects name="Tree&amp;Cursor">
       <object>objects\obj_treewhole</object>
@@ -168,6 +171,7 @@
       <object>objects\obj_retry_GO</object>
       <object>objects\obj_GO_HighScores</object>
       <object>objects\bj_GO_exit</object>
+      <object>objects\object_fscore</object>
     </objects>
     <objects name="Powerups">
       <object>objects\object_shield</object>
@@ -192,10 +196,11 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_day</room>
-    <room>rooms\rm_help</room>
     <room>rooms\rm_gameover</room>
     <room>rooms\rm_paused</room>
     <room>rooms\rm_highscore</room>
+    <room>rooms\rm_help</room>
+    <room>rooms\room7</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
