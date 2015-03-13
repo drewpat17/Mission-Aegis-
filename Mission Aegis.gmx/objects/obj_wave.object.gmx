@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>level=1;
 time = 10;
-spawn_rate = 200;
+spawn_rate = 100;
 alarm[0] = 60;
 
 

@@ -193,6 +193,7 @@
       <object>objects\obj_back</object>
     </objects>
     <object>objects\obj_creation_code</object>
+    <object>objects\object49</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
