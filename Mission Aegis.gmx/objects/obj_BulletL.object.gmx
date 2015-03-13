@@ -57,7 +57,7 @@ effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
 //code for deduction of hp of the obj_enemy1
 if( hit != noone ){
     effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
-    hit.hp -= 10;
+    hit.hp -= random(30);
     instance_destroy();
 }
 </string>
@@ -86,7 +86,7 @@ hit = instance_place(x+0,y+0,obj_E1_L);
     effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
 if( hit != noone ){
     effect_create_above(ef_spark,x+0,y+0,1,c_yellow);
-    hit.hp -= 10;
+    hit.hp -= random(30);
     instance_destroy();
 }
 </string>

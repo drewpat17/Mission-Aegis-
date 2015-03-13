@@ -56,12 +56,12 @@ alarm[0] = 60;
             <string>if(time &lt;= 0){
     time = 10;
     level += 1;
-    spawn_rate -= 5;
+    spawn_rate -= 10;
     
 }else time--;
 
-if(spawn_rate == 5 ){
-    spawn_rate = 20;
+if(spawn_rate &lt;= 10 ){
+    spawn_rate = 50;
 }
 
 alarm[0] = 60;

@@ -117,7 +117,8 @@ if( hit != noone ){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp -= 10;
+            <string>//hp -= 10;
+random(30)
 </string>
           </argument>
         </arguments>
