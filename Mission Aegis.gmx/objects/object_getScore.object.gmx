@@ -49,7 +49,7 @@
             <kind>1</kind>
             <string>draw_set_color(c_white);
 draw_set_font(f_scoreEnd);
-draw_text(450,350," "+string(score));
+draw_text(450,355," "+string(score));
 </string>
           </argument>
         </arguments>
